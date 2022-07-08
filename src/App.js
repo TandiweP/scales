@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <h1>Scales</h1>
-      
+      <h2>GCPorter Trucking</h2>
+    
     </div>
   );
 }
