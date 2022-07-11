@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-
+import LightWeights from './components/LightWeights'
 function App() {
   return (
     <div className="App">
-      <h1>Scales</h1>
+      < LightWeights /> 
+      
       
     </div>
   );
