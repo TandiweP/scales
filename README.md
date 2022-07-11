@@ -1,3 +1,6 @@
+# Truck Load Scales
+This is a project designed to allow drivers to input gross and tare weights of trailer trains and get a calculated net in both lbs and tons. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
