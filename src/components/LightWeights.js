@@ -13,6 +13,7 @@ return (
     <form className="form">
         <input
             className="empty-truck"
+            id="empty-truck"
             type="number"
             placeholder = "Truck/Trailer Empty"
             value={emptyTruck}
@@ -21,6 +22,7 @@ return (
         
         <input
             className = "empty-pup"
+            id="empty-pup"
             type="number"
             placeholder = "Pup Empty"
             value={emptyPup}
@@ -28,6 +30,7 @@ return (
         />
         <input
             className="loaded-truck"
+            id="heavy-truck"
             type="number"
             placeholder = "Truck/Trailer Loaded"
             value={loadedTruck}
@@ -36,6 +39,7 @@ return (
         
         <input
             className = "loaded-pup"
+            id="heavy-pup"
             type="number"
             placeholder = "Pup Loaded"
             value={loadedPup}
@@ -49,3 +53,5 @@ return (
 
 
 }
+
+
