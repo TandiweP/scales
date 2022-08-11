@@ -1,15 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import WeightCalc from './components/CalcWeights'
+import CalcWeights from './components/CalcWeights'
 
 function App() {
   return (
     <div className="App">
-      <h1>GCPorter Trucking</h1>
-      <h1>Load Weight Calculator</h1>
-      < WeightCalc /> 
-      {/* < WeightCalc /> */}
-      
+      <h1 className="company">GCPorter Trucking</h1>
+      <h1 className="title">Load Weight Calculator</h1>
+      < CalcWeights /> 
     </div>
   );
 }

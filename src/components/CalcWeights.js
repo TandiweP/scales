@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-export default function weightCalc () {
+export default function CalcWeights () {
 const [emptyTruck, setEmptyTruck] = useState(0);
 const [emptyPup, setEmptyPup] = useState(0);
 const [loadedTruck, setLoadedTruck] = useState(0);
