@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -37,13 +40,35 @@
   }
 }
 
-.form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.company {
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
   margin-top: 10vh;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-bottom: auto; 
+  margin-bottom: auto;
 }
 
+.title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 3rem;
+  margin-bottom: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5rem;
+  max-width: 25vw; 
+}
+
+.form > label {
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.submit-button {
+  background-color: rgba(121, 123, 129, 0.897);
+  margin-top: 2rem;
+  border-radius: .25rem;
+  font-size: 1.5rem;
+}
 
