@@ -41,13 +41,13 @@
 }
 
 .company {
-  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
   margin-top: 10vh;
   margin-bottom: auto;
 }
 
 .title {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 3rem;
   margin-bottom: auto;
 }
@@ -57,18 +57,24 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 5rem;
-  max-width: 25vw; 
+  max-width: 25vw;
 }
 
 .form > label {
   font-size: 2rem;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .submit-button {
   background-color: rgba(121, 123, 129, 0.897);
   margin-top: 2rem;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   font-size: 1.5rem;
 }
 
+input {
+  border-radius: 0.5rem;
+  height: 3vh;
+  max-width: 10vw;
+  align-self: center;
+}

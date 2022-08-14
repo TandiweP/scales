@@ -7,6 +7,15 @@ const [emptyPup, setEmptyPup] = useState(0);
 const [loadedTruck, setLoadedTruck] = useState(0);
 const [loadedPup, setLoadedPup] = useState(0);
 
+
+
+        // let content = `
+        //     <ul>
+        //         <li>Gross: {gross}</li>
+        //     </ul>
+        // `;
+
+
 const handleSubmit = (e) => {
         e.preventDefault();
         console.log('submitted');
@@ -24,7 +33,10 @@ const handleSubmit = (e) => {
         console.log(net);
         console.log(tons);
 
-        // return (
+       
+
+        //  return (
+        //     document.body.innerHTML = content;
         //     document.getElementById('emptyTruck')
         // )
 
@@ -39,7 +51,9 @@ const handleSubmit = (e) => {
         // )
     }
 
+
 return (
+    
     <form className="form" type = "submit" onSubmit = {handleSubmit}>
         <label>Empty Truck</label>
         <input
@@ -75,7 +89,7 @@ return (
     </form>
     
     
-)
+) 
 
 
 
