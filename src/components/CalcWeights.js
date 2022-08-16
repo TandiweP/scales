@@ -33,22 +33,33 @@ const handleSubmit = (e) => {
         console.log(net);
         console.log(tons);
 
-       
+       return (
+    
+        <table className = "response">
+            <tr>
+                <th>Gross</th>
+                <th>Tare</th>
+                <th>Net</th>
+                <th>Tons</th>
+            </tr>
+            <tr>
+                <td>{gross}</td>
+                <td>{tare}</td>
+                <td>{net}</td>
+                <td>{tons}</td>
+            </tr>
+        </table>
+       )
+    //     return (
+                
+    //      <div className = "response">
+    //              <h1> Gross weight is {gross} </h1>
+    //              <h1> Tare weight is {tare} </h1>
+    //             <h1> Net weight is ${net} </h1>
+    //             <h1> There are ${tons} tons</h1>
+    //          </div>
 
-        //  return (
-        //     document.body.innerHTML = content;
-        //     document.getElementById('emptyTruck')
-        // )
-
-        // return (
-        //     <div className = "response">
-        //         <h1> Gross weight is {gross} </h1>
-        //         <h1> Tare weight is {tare} </h1>
-        //         <h1> Net weight is ${net} </h1>
-        //         <h1> There are {tons} tons</h1>
-        //     </div>
-
-        // )
+    //      )
     }
 
 
@@ -88,11 +99,8 @@ return (
         <button className = "submit-button">Submit</button>
     </form>
     
-    
 ) 
 
 
 
 }
-
-

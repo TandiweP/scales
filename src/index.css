@@ -13,17 +13,6 @@ code {
     monospace;
 }
 
-/* .form {
-  display: flex;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
-  background-color: black;
-  padding: 1rem;
-  
-} */
 
-input {
-  border-radius: .5rem;
-  height: 5vh;
-}
+
 
