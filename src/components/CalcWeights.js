@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 
 
+
 export default function CalcWeights () {
 const [emptyTruck, setEmptyTruck] = useState(0);
 const [emptyPup, setEmptyPup] = useState(0);
 const [loadedTruck, setLoadedTruck] = useState(0);
 const [loadedPup, setLoadedPup] = useState(0);
-
+// const [gross, setGross] = useState(0);
+// const [tare, setTare] = useState(0);
+// const [net, setNet] = useState(0);
+// const [tons, setTons] = useState(0);
 
 
         // let content = `
@@ -20,10 +24,10 @@ const handleSubmit = (e) => {
         e.preventDefault();
         console.log('submitted');
         
-        let gross = parseFloat(loadedTruck) + parseFloat(loadedPup);
-        let tare = parseFloat(emptyTruck) + parseFloat(emptyPup);
-        let net = (parseFloat(loadedTruck) + parseFloat(loadedPup)) - (parseFloat(emptyTruck) + parseFloat(emptyPup));
-        let tons = ((parseFloat(loadedTruck) + parseFloat(loadedPup)) - (parseFloat(emptyTruck) + parseFloat(emptyPup))) / 2000;
+        const gross = parseFloat(loadedTruck) + parseFloat(loadedPup);
+        const tare = parseFloat(emptyTruck) + parseFloat(emptyPup);
+        const net = (parseFloat(loadedTruck) + parseFloat(loadedPup)) - (parseFloat(emptyTruck) + parseFloat(emptyPup));
+        const tons = ((parseFloat(loadedTruck) + parseFloat(loadedPup)) - (parseFloat(emptyTruck) + parseFloat(emptyPup))) / 2000;
         // let tare = emptyTruck + emptyPup;
         // let net = gross - tare;
         // let tons = net / 2000; 
@@ -32,34 +36,37 @@ const handleSubmit = (e) => {
         console.log(tare);
         console.log(net);
         console.log(tons);
+        
 
-       return (
+        
+            
+    //    return (
     
-        <table className = "response">
-            <tr>
-                <th>Gross</th>
-                <th>Tare</th>
-                <th>Net</th>
-                <th>Tons</th>
-            </tr>
-            <tr>
-                <td>{gross}</td>
-                <td>{tare}</td>
-                <td>{net}</td>
-                <td>{tons}</td>
-            </tr>
-        </table>
-       )
-    //     return (
+    //     <table className = "response">
+    //         <tr>
+    //             <th>Gross</th>
+    //             <th>Tare</th>
+    //             <th>Net</th>
+    //             <th>Tons</th>
+    //         </tr>
+    //         <tr>
+    //             <td>{gross}</td>
+    //             <td>{tare}</td>
+    //             <td>{net}</td>
+    //             <td>{tons}</td>
+    //         </tr>
+    //     </table>
+    //    )
+        // return (
                 
-    //      <div className = "response">
-    //              <h1> Gross weight is {gross} </h1>
-    //              <h1> Tare weight is {tare} </h1>
-    //             <h1> Net weight is ${net} </h1>
-    //             <h1> There are ${tons} tons</h1>
-    //          </div>
+        //  <div className = "response">
+        //          <h1> Gross weight is {gross} </h1>
+        //          <h1> Tare weight is {tare} </h1>
+        //         <h1> Net weight is ${net} </h1>
+        //         <h1> There are ${tons} tons</h1>
+        //      </div>
 
-    //      )
+        //  )
     }
 
 
