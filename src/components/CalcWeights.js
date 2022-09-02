@@ -72,7 +72,7 @@ const handleSubmit = (e) => {
 
 
 return (
-    
+
     <form className="form" type = "submit" onSubmit = {handleSubmit}>
         <label for="truck">Please Select A Truck </label>
         <select name="truck" id="truck">
