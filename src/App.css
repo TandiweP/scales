@@ -66,12 +66,18 @@
 }
 
 .submit-button {
-  background-color: rgba(121, 123, 129, 0.897);
+  background-color: rgba(0, 0, 0, 0.897);
+  color: white;
   margin-top: 2rem;
   border-radius: 0.25rem;
   font-size: 1.5rem;
 }
 
+.submit-button:hover {
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
 input,
 select {
   border-radius: 0.5rem;
