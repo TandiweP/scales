@@ -24,6 +24,7 @@ const handleSubmit = (e) => {
         e.preventDefault();
         console.log('submitted');
         
+        const truck = document.getElementById("truck");
         const gross = parseFloat(loadedTruck) + parseFloat(loadedPup);
         const tare = parseFloat(emptyTruck) + parseFloat(emptyPup);
         const net = (parseFloat(loadedTruck) + parseFloat(loadedPup)) - (parseFloat(emptyTruck) + parseFloat(emptyPup));
@@ -31,7 +32,7 @@ const handleSubmit = (e) => {
         // let tare = emptyTruck + emptyPup;
         // let net = gross - tare;
         // let tons = net / 2000; 
-
+        console.log(truck.value)
         console.log(gross);
         console.log(tare);
         console.log(net);

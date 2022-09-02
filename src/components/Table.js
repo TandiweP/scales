@@ -8,7 +8,7 @@ return (
     <table className = "response">
         <thead>
         <tr>
-            <th>Load #</th>
+            <th>Truck</th>
             <th>Gross</th>
             <th>Tare</th>
             <th>Net</th>
@@ -16,6 +16,8 @@ return (
         </tr>
         </thead>
         <tbody>
+
+
             {/* {
                 handleSubmit.map((data, index) => {
                     return(
