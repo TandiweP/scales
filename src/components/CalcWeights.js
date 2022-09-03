@@ -93,6 +93,7 @@ return (
             id="empty-truck"
             value={emptyTruck}
             onChange={(e) => setEmptyTruck(e.currentTarget.value)} 
+            required
         />
         <label>Empty Pup</label>
         <input
@@ -100,6 +101,7 @@ return (
             id="empty-pup"
             value={emptyPup}
             onChange={(e) => setEmptyPup(e.currentTarget.value)} 
+            required
         />
         <label>Truck Loaded</label>
         <input
@@ -107,6 +109,7 @@ return (
             id="heavy-truck"
             value={loadedTruck}
             onChange={(e) => setLoadedTruck(e.currentTarget.value)} 
+            required
         />
         
         <label>Pup Loaded</label>
@@ -115,6 +118,7 @@ return (
             id="heavy-pup"
             value={loadedPup}
             onChange={(e) => setLoadedPup(e.currentTarget.value)} 
+            required
         />
 
         <button className = "submit-button">Submit</button>
