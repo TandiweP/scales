@@ -84,6 +84,14 @@ return (
             <option value="16">#16</option>
             <option value="18">#18</option>
             <option value="flatbed">Flatbed With 5th Wheel</option>
+            <option value="example">--Please Select a Vehicle--</option>
+            <option value="2">#2</option>
+            <option value="10">#10</option>
+            <option value="14">#14</option>
+            <option value="15">Dino</option>
+            <option value="16">#16</option>
+            <option value="18">#18</option>
+            <option value="flatbed">Flatbed With 5th Wheel</option>
             
         </select>
 
